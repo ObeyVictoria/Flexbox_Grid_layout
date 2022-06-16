@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+body {
+	background-color: #151E3D;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+a {
+	color: white;
+	margin-right: ;
+}
+main {
+	display: grid;
+	grid-template-areas:
+    "a a a a b b"
+    "c c c d d d"
+    "c c c e e e"
+	;
+	grid-gap: 15px;
+	width: 50%;
+	margin: auto;
+}
+main div {
+	padding: 10px;
+	text-align: center;
+	height: 200px;
+}
+.itema {
+	background-color: orangered;
+	grid-area: a;
+}
+.itemb {
+	background-color: orange;
+	grid-area: b;
+}
+.itemc {
+	background-color: limegreen;
+	grid-area: c;
+}
+.itemd {
+	background-color: #00B2FF;
+	grid-area: d;
+	height: 75px;
+}
+.iteme {
+	background-color: #00B2FF;
+	grid-area: e;
+	height: 90px;
+}
